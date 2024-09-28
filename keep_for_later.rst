@@ -39,15 +39,15 @@ Container format
 
 
 
-## From bioagentsschema_elements.rst
-   "diskFormat", "Virtual machine image disk format.", "enum (see `docs <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#disk-image-format>`__)", "0 or 1"
-   "containerFormat", "Virtual machine container format.", "enum (see `docs <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#container-format>`__)", "0 or 1"
+## From bioagents-schema_elements.rst
+   "diskFormat", "Virtual machine image disk format.", "enum (see `docs <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#disk-image-format>`__)", "0 or 1"
+   "containerFormat", "Virtual machine container format.", "enum (see `docs <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#container-format>`__)", "0 or 1"
 
    
    
 
 
-   "relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-agents/bioagentsSchema/tree/master/stable/docs>`__"
+   "relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-agents/bioagents schema/tree/master/stable/docs>`__"
    "shortDescription", "Short and concise textual description of the software function.", "xs:token (restriction)", "0 or 1"
    "goTermID", "Gene function including molecular function, cellular component and biological process.  Miscellaneous ontology annotation. The ID of Gene Ontology (GO) concept(s) are specified.", "xs:token (restriction)", "0 or more"
    "soTermID", "Features which can be located on a biological sequence. The ID of Sequence Ontology (SO) concept(s) are specified.", "xs:token (restriction)", "0 or more"
@@ -57,13 +57,13 @@ Container format
 ^^^^^^^^^^^^^^
 *Details of a relationship this software shares with other software registered in bio.agents.*
 
-See the `GitHub docs <https://github.com/bio-agents/bioagentsSchema/tree/master/stable/docs>`__.
+See the `GitHub docs <https://github.com/bio-agents/bioagents schema/tree/master/stable/docs>`__.
 
 API spec group
 ^^^^^^^^^^^^^^
 *Details of the API to a service including service endpoints.*
 
-See the `GitHub docs <https://github.com/bio-agents/bioagentsSchema/tree/master/stable/docs>`__.
+See the `GitHub docs <https://github.com/bio-agents/bioagents schema/tree/master/stable/docs>`__.
 
    "isAvailable", "Used (with value of 'Not available') when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
    "isAvailable", "Used (with value of 'Not available') when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"

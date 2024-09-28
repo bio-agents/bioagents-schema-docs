@@ -1,18 +1,18 @@
-bioagentsSchema elements
+bioagents schema elements
 =======================
 
-A summary of elements in bioagentsSchema is below.  For more detailed information, please see the `technical documentation <http://bio-agents.github.io/bioagentsSchema/>`_.
+A summary of elements in bioagents schema is below.  For more detailed information, please see the `technical documentation <http://bio-agents.github.io/bioagents schema/>`_.
 
 
 .. important::
-   When producing XML files compliant to the schema, it is essential to stick to the element order (including nested elements) as described below.  See the sample `XML files <https://github.com/bio-agents/bioagentsSchema/tree/master/stable/example_files>`_. 
+   When producing XML files compliant to the schema, it is essential to stick to the element order (including nested elements) as described below.  See the sample `XML files <https://github.com/bio-agents/bioagents schema/tree/master/stable/example_files>`_. 
 
 Element groups
 --------------
-bioagentsSchema includes scientific, technical and administrative software attributes, organised for convenience into 8 logical groupings (see below).
+bioagents schema includes scientific, technical and administrative software attributes, organised for convenience into 8 logical groupings (see below).
 
 .. note::
-   As of bioagentsSchema 3.3.0, all of the element groups *other than* "Summary" and "Labels" are reflected as elements/objects in bioagentsSchema/bioagentsSchemaJ.
+   As of bioagents schema 3.3.0, all of the element groups *other than* "Summary" and "Labels" are reflected as elements/objects in bioagents schema/bioagents schemaJ.
 
 
 .. image:: images/agent.png
@@ -52,11 +52,11 @@ Summary group
    "version", "Version information (typically a version number) of the software applicable to this bio.agents entry.", "xs:token (restriction)", "0 or more"
    "otherID", "A unique identifier of the software, typically assigned by an ID-assignment authority other than bio.agents.", "(see below)", "0 or more"
    "otherID->value", "Value of agent identifier.", "xs:token (restriction)", "1 only"
-   "otherID->type", "Type of agent identifier.", "enum (see `docs <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#id-type>`__)", "0 or 1"
+   "otherID->type", "Type of agent identifier.", "enum (see `docs <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#id-type>`__)", "0 or 1"
    "otherID->version", "Version information (typically a version number) of the software applicable to this identifier.", "xs:token (restriction)", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://bioagents.readthedocs.io/en/latest/curators_guide.html#summary-group>`__.  As of bioagentsSchema 3.0.0, the Summary group does not have a corresponding element/object in bioagentsSchema/bioagentsSchemaJ (the schema was flattened).
+   See the `Curators Guide <http://bioagents.readthedocs.io/en/latest/curators_guide.html#summary-group>`__.  As of bioagents schema 3.0.0, the Summary group does not have a corresponding element/object in bioagents schema/bioagents schemaJ (the schema was flattened).
 
 	    
 Function group
@@ -119,17 +119,17 @@ Labels group
    "topic->term", "An EDAM Topic term (preferred label or synonym).", "xs:token", "0 or 1"
    "operatingSystem", "The operating system supported by a downloadable software package.", "enum (see `docs <http://bioagents.readthedocs.io/en/latest/curators_guide.html#operating-system>`__)", "0 or more"
    "language", "Name of programming language the software source code was written in.", "enum (see `docs <http://bioagents.readthedocs.io/en/latest/curators_guide.html#programming-language/>`__)", "0 or more"
-   "license", "Software or data usage license.", "enum (see `docs <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#license>`__)", "0 or 1"
+   "license", "Software or data usage license.", "enum (see `docs <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#license>`__)", "0 or 1"
    "collectionID", "Tag for a collection that the software has been assigned to within bio.agents.", "xs:token (restriction)", "0 or more"
-   "maturity", "How mature the software product is.", "enum (see `docs <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`__)", "0 or 1"
-   "cost", "Monetary cost of acquiring the software.", "enum (see `docs <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`__)", "0 or 1"
+   "maturity", "How mature the software product is.", "enum (see `docs <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`__)", "0 or 1"
+   "cost", "Monetary cost of acquiring the software.", "enum (see `docs <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`__)", "0 or 1"
    "accessibility", "Whether there are non-monetary restrictions on accessing an online service.", "enum (see `docs <http://bioagents.readthedocs.io/en/latest/curators_guide.html#accessibility>`__)", "0 or more"
    "iechorPlatform", "Name of the IECHOR Platform that is credited.", "enum (see `docs <http://bioagents.readthedocs.io/en/latest/curators_guide.html#iechor-platform>`__)", "0 or more"
    "iechorNode", "Name of the IECHOR Node that is credited.", "enum (see `docs <http://bioagents.readthedocs.io/en/latest/curators_guide.html#iechor-node>`__)", "0 or more"
    "iechorCommunity", "Name of relevant IECHOR (or associated) community.", "enum (see `docs <http://bioagents.readthedocs.io/en/latest/curators_guide.html#iechor-community>`__)", "0 or more"
 
 .. note::
-   See the `Curators Guide <http://bioagents.readthedocs.io/en/latest/curators_guide.html#labels-group>`__. As of bioagentsSchema 3.0.0, the Labels group does not have a corresponding element/object in bioagentsSchema/bioagentsSchemaJ (the schema was flattened).
+   See the `Curators Guide <http://bioagents.readthedocs.io/en/latest/curators_guide.html#labels-group>`__. As of bioagents schema 3.0.0, the Labels group does not have a corresponding element/object in bioagents schema/bioagents schemaJ (the schema was flattened).
 
 Link group
 ----------

@@ -1,2 +1,2 @@
-# bioagentsSchemaDocs
-Documentation for bioagentsSchema, hosted [here](http://bioagentsschema.readthedocs.io/en/latest/).
+# bioagents schemaDocs
+Documentation for bioagents schema, hosted [here](http://bioagents-schema.readthedocs.io/en/latest/).

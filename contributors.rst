@@ -3,11 +3,11 @@ Contributors
 
 Governance
 ----------
-bioagentsSchema is a community-driven project governed under the leadership of the `French IECHOR node <https://www.france-bioinformatique.fr/iechor-fr/>`_ (Jacques van Helden, Joint Head of Node) in collaboration with other national `IECHOR nodes <https://iechor-europe.org/about-us/who-we-are/nodes>`_ and partners beyond IECHOR.  bioagentsSchema development is supported by the French IECHOR node, and has benefited from the voluntary contributions of many individuals since its inception. 
+bioagents schema is a community-driven project governed under the leadership of the `French IECHOR node <https://www.france-bioinformatique.fr/iechor-fr/>`_ (Jacques van Helden, Joint Head of Node) in collaboration with other national `IECHOR nodes <https://iechor-europe.org/about-us/who-we-are/nodes>`_ and partners beyond IECHOR.  bioagents schema development is supported by the French IECHOR node, and has benefited from the voluntary contributions of many individuals since its inception. 
 
 Development on the ground is led by French IECHOR Node staff and affiliates (Hervé Ménager, Jon Ison and Alban Gaignard), in close collaboration with the IECHOR Agents Platform and other partners within and beyond the `IECHOR infrastructure <https://iechor-europe.org/>`_.
 
-If you’d like to get involved with the project please contact us via `GitHub <https://github.com/bio-agents/bioagentsSchema>`_.
+If you’d like to get involved with the project please contact us via `GitHub <https://github.com/bio-agents/bioagents schema>`_.
 
 Main authors & contributors
 ---------------------------

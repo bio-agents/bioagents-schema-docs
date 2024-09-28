@@ -1,6 +1,6 @@
 Controlled vocabularies
 =======================
-bioagentsSchema defines 17 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
+bioagents schema defines 17 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
 
 .. csv-table::
    :header: "Vocabulary", "Description"
@@ -69,13 +69,13 @@ Programming language
 
 *Name of programming language the software source code was written in, e.g. "C"*
 
-See the `technical docs <http://bio-agents.github.io/bioagentsSchema/>`_ for a list of valid terms.
+See the `technical docs <http://bio-agents.github.io/bioagents schema/>`_ for a list of valid terms.
 
 License
 -------
 *Software or data usage license, e.g. "GPL-3.0"*
 
-See the `technical docs <http://bio-agents.github.io/bioagentsSchema/>`_ for a complete list of valid terms.  Noteworthy terms are below:
+See the `technical docs <http://bio-agents.github.io/bioagents schema/>`_ for a complete list of valid terms.  Noteworthy terms are below:
 
 
 .. csv-table::
@@ -85,7 +85,7 @@ See the `technical docs <http://bio-agents.github.io/bioagentsSchema/>`_ for a c
    "Proprietary", "Software for which the software's publisher or another person retains intellectual property rights - usually copyright of the source code, but sometimes patent rights."
    "Freeware", "Proprietary software that is available for use at no monetary cost. In other words, freeware may be used without payment but may usually not be modified, re-distributed or reverse-engineered without the author's permission."
    "Not licensed", "Software which is not licensed and is not proprietary."
-    "Other", "Software under license not currently supported by bioagentsSchema."
+    "Other", "Software under license not currently supported by bioagents schema."
 	    
 
 Maturity
@@ -200,7 +200,7 @@ Documentation type
    "Release notes", "Notes about a software release or changes to the software; a change log."
    "Terms of use", "Rules that one must agree to abide by in order to use a service."
    "Training material", "Online training material such as a tutorial, a presentation, video etc."
-   "Other", "Some other type of documentation not listed in bioagentsSchema."
+   "Other", "Some other type of documentation not listed in bioagents schema."
 
 
 
